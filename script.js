@@ -8,7 +8,7 @@ const scroll = new FeatherScroll({
   touchSensitivity: 2, // Sensitivity for touch scrolling
   infinite: false // Infinite scrolling
 });
-// Shery.mouseFollower()
+Shery.mouseFollower()
 Shery.makeMagnet("nav h4,a",{
     strength:30,
 })
