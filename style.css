@@ -1,0 +1,136 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    width: 100%;
+    background-color: black;
+}
+.page1{
+    width: 100%;height: 100vh;background-color: black;
+}
+nav{
+    width: 96%;height: 50px;display: flex;align-items: center;justify-content: space-between;
+    /* padding: 0 20px; */
+    margin: auto;position: sticky;top: 0;left: 0%;overflow: hidden;
+}
+nav a{
+    text-decoration: none;font-size: 10px;font-weight: bold;
+}
+.h2{
+    width: 47%;
+    height: 8.5vw;margin-left: .5cm;margin-top: -1.3vw;
+    overflow: hidden;
+}
+.h1{
+    width: 50%;margin-left: .5cm;margin-top: 4.5vw;
+    height: 7vw;overflow: hidden;
+}
+.h1 h2{
+    font-size: 7vw;
+}
+.h2 h1{
+    font-size: 7vw;text-align: end;
+}
+.h2 h6{
+    font-size: 1.2vw;text-align: end;margin-top: 0;margin-top: -1vw;
+}
+.h6{
+    width: 96.3%;font-size: .7vw;margin-left: .5cm;margin-top: 2.5vw;display: flex;flex-direction: column;
+    align-items: end;height: 1.7vw;margin-top: 5vw;overflow: hidden;
+}
+.btm{
+    width: 97.8%;height: 50px;display: flex;align-items: center;justify-content: space-between;margin: 9vw .5cm;
+    /* background-color: bisque; */
+}
+#pro{
+    opacity: 0.5;font-family: Arial, Helvetica, sans-serif;font-weight: bold;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    padding-top: 18vh;
+}
+.anim{
+    width: 96%;height: 25vh;display: flex;align-items: center;justify-content: space-between;
+    padding: 2vw 2.5vw;border-top: 1px solid #888;position: relative;
+}
+.lstanim{
+    border-bottom: 1px solid #888;
+}
+.anim img{
+    width: 40%;height: 20vh;position: absolute;z-index: 999;
+    height: 140%;
+    width: auto;
+    opacity: 0;
+}
+.page3{
+    width: 100%;height: 100vh;
+}
+.con{
+    width: 70%;height: 60vh;display: flex;gap: 7vw;
+    /* margin: 10% 30%; */
+    position: relative;
+    left: 30%;
+    top: 20%;
+}
+.con .img{
+    width: 27.5%;height: 70%;border-radius: 50%;margin-top: 1.5vw;
+}
+.about h6{
+    font-size: 1.4vw;line-height: 2vw;font-weight: normal;
+}
+.about h6:nth-child(2){
+    margin-top: 1vw;
+}
+button{
+    border-radius: .9%;background-color: black;width: 28%;height: 10%;border: 1px solid white;
+    color: white;margin-top: 1.3vw;
+}
+button:hover{
+    cursor: pointer;
+}
+.con .img img{
+    width: 100%;height: 100%;object-fit: cover;border-radius: 50%;
+}
+.page4{
+    width: 100%;height: 55vh;
+}
+.page4 #h4{
+    padding-top: .5%;
+    padding-left: 2%;
+}
+.btmnav{
+    width: 95.5%;height:74%;display: flex;align-items: end;justify-content: space-between;
+    /* border: 1px solid rgb(193, 98, 98); */
+    margin: 0vh auto;
+    padding-bottom: 1.5vh;
+}
+.links{
+    display: flex;gap: 4.5vw;
+}
+.links a{
+    text-decoration: none;font-size: 1.5vw;font-weight: normal;
+    cursor: pointer;
+}
+.links a:hover{
+    text-decoration: darkturquoise underline;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.8s ease-in-out;
+}
+.page1 nav h4:hover{
+    cursor: pointer;
+}
+.page1 nav a{
+    font-size: medium;
+}
+.page1 nav a:hover{
+    cursor: pointer;
+}
