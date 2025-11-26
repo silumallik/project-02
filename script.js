@@ -17,10 +17,10 @@ gsap.from(".page1 nav h4,a",{
     y:70,duration:1,ease:"power4.out",
 })
 gsap.from(".h1 h2",{
-    y:70,duration:1,ease:"power3.out",
+    y:120,duration:1,ease:"power3.out",
 })
 gsap.from(".h2 h1",{
-    y:70,duration:1,ease:"power4.out",
+    y:120,duration:1,ease:"power4.out",
 })
 gsap.from(".h2 h6",{
     y:70,duration:1,ease:"power4.out",
@@ -36,23 +36,6 @@ gsap.from(".h6 #av2",{
 gsap.from("#btm",{
     y:50,ease:"back.inout",duration:1,opacity:0
 })
-// functtion circleChaptakaro() {
-//     var xscale = 1;
-//     var yscale = 1;
-//     var xprev = 0;
-//     var yprev = 0;    
-//     window.addEventListener('mousemove', (dets) => {
-//         var xdiff = dets.clientX - xprev;
-//         var ydiff = dets.clientY - yprev;
-
-//         xprev = dets.clientX;
-//         yprev = dets.clientY;
-
-//         xscale = gsap.utils.clamp(.8, 1.2, dets.clientX - xprev);
-//         yscale = gsap.utils.clamp(.8, 1.2, dets.clientY - yprev);
-//     })
-// }
-// circleChaptakaro()
 document.querySelectorAll(".anim").forEach(function(elem) {
     var rotate = 0;
     var diffrot = 0;
